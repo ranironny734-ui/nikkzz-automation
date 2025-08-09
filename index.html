@@ -1,61 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronny Automation Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f8f9fa;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background: #25d366;
-            color: white;
-            padding: 20px;
-        }
-        h1 {
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-        }
-        .btn {
-            background: #25d366;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .btn:hover {
-            background: #1eb152;
-        }
-        footer {
-            margin-top: 40px;
-            padding: 10px;
-            font-size: 14px;
-            background: #eee;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ronny Automation Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Ahmedabad shops ke liye WhatsApp automation — order updates, promotions aur customer support." />
 </head>
 <body>
-    <header>
-        <h1>Ronny Automation Services</h1>
-        <p>Grow Your Business with WhatsApp Automation</p>
-    </header>
+  <header class="site-header">
+    <div class="container">
+      <h1>Ronny Automation Services</h1>
+      <p class="tagline">WhatsApp automation se apna business grow karo — fast, simple, aur reliable.</p>
+    </div>
+  </header>
 
-    <section>
-        <h2>What We Offer</h2>
-        <p>We help Ahmedabad shops automate their customer messages, order updates, and promotions through WhatsApp.</p>
-        <a class="btn" href="https://wa.me/919999999999" target="_blank">Chat on WhatsApp</a>
+  <main class="container">
+    <section class="hero">
+      <h2>WhatsApp se orders aur customers manage karo</h2>
+      <p>Hum local Ahmedabad shops ko WhatsApp automation setup kar ke dete hain — order confirmations, delivery updates, aur promotional broadcasts.</p>
+
+      <div class="cta-row">
+        <a class="btn" id="wa-button" href="https://wa.me/919999999999" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <button id="learn-btn" class="btn outline">Services & Pricing</button>
+      </div>
     </section>
 
-    <footer>
-        &copy; 2025 Ronny Automation Services
-    </footer>
+    <section class="features">
+      <h3>Hamari Services</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Order Updates</h4>
+          <p>Automatic order confirmation, packing aur delivery updates via WhatsApp.</p>
+        </article>
+
+        <article class="card">
+          <h4>Customer Support</h4>
+          <p>Common queries ke liye auto replies aur agent handoff jab zaroorat ho.</p>
+        </article>
+
+        <article class="card">
+          <h4>Promotions</h4>
+          <p>Targeted broadcast messages — new offers aur seasonal discounts.</p>
+        </article>
+
+        <article class="card">
+          <h4>Simple Integration</h4>
+          <p>Existing phone number ya business account se setup — minimal training.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how">
+      <h3>Kaise kaam karta hai</h3>
+      <ol>
+        <li>Hume message templates aur order flow do.</li>
+        <li>Hum automation (bot + webhook) set kar denge.</li>
+        <li>Tum test karo, phir live chalu kar denge.</li>
+      </ol>
+    </section>
+
+    <section class="contact">
+      <h3>Tayyar ho? Chalo shuru karte hain!</h3>
+      <p>Seedha WhatsApp pe message bhejo:</p>
+      <a class="btn" href="https://wa.me/919999999999" target="_blank" rel="noopener">Message Ronny</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Ronny Automation Services • Made in Ahmedabad</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
